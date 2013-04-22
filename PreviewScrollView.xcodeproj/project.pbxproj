@@ -18,6 +18,8 @@
 		CC5382C01724660300F088F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5382BF1724660300F088F5 /* Default-568h@2x.png */; };
 		CC5382C31724660300F088F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5382C21724660300F088F5 /* ViewController.m */; };
 		CC5382C61724660300F088F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5382C41724660300F088F5 /* ViewController.xib */; };
+		CC5382CD1724679B00F088F5 /* zuehlke_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5382CC1724679B00F088F5 /* zuehlke_logo.jpg */; };
+		CC5382D817246F3800F088F5 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5382D717246F3800F088F5 /* ContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		CC5382C11724660300F088F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CC5382C21724660300F088F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CC5382C51724660300F088F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CC5382CC1724679B00F088F5 /* zuehlke_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zuehlke_logo.jpg; sourceTree = "<group>"; };
+		CC5382D617246F3800F088F5 /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		CC5382D717246F3800F088F5 /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +88,10 @@
 		CC5382AF1724660300F088F5 /* PreviewScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				CC5382B81724660300F088F5 /* AppDelegate.h */,
-				CC5382B91724660300F088F5 /* AppDelegate.m */,
-				CC5382C11724660300F088F5 /* ViewController.h */,
-				CC5382C21724660300F088F5 /* ViewController.m */,
-				CC5382C41724660300F088F5 /* ViewController.xib */,
+				CC5382E817246FFA00F088F5 /* Main */,
+				CC5382E717246FF200F088F5 /* Controller */,
+				CC5382E617246FEB00F088F5 /* Views */,
+				CC5382CE172467A000F088F5 /* Resources */,
 				CC5382B01724660300F088F5 /* Supporting Files */,
 			);
 			path = PreviewScrollView;
@@ -105,6 +109,50 @@
 				CC5382BF1724660300F088F5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC5382CE172467A000F088F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC5382CF172467AD00F088F5 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CC5382CF172467AD00F088F5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CC5382CC1724679B00F088F5 /* zuehlke_logo.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CC5382E617246FEB00F088F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC5382D617246F3800F088F5 /* ContentView.h */,
+				CC5382D717246F3800F088F5 /* ContentView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CC5382E717246FF200F088F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC5382C11724660300F088F5 /* ViewController.h */,
+				CC5382C21724660300F088F5 /* ViewController.m */,
+				CC5382C41724660300F088F5 /* ViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC5382E817246FFA00F088F5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CC5382B81724660300F088F5 /* AppDelegate.h */,
+				CC5382B91724660300F088F5 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +211,7 @@
 				CC5382BE1724660300F088F5 /* Default@2x.png in Resources */,
 				CC5382C01724660300F088F5 /* Default-568h@2x.png in Resources */,
 				CC5382C61724660300F088F5 /* ViewController.xib in Resources */,
+				CC5382CD1724679B00F088F5 /* zuehlke_logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +225,7 @@
 				CC5382B61724660300F088F5 /* main.m in Sources */,
 				CC5382BA1724660300F088F5 /* AppDelegate.m in Sources */,
 				CC5382C31724660300F088F5 /* ViewController.m in Sources */,
+				CC5382D817246F3800F088F5 /* ContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
